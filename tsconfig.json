@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "jsx": "react-jsx",
+    "jsx": "preserve",
     "moduleResolution": "node",
     "target": "ESNext",
     "module": "ESNext",
@@ -38,8 +38,7 @@
     "**/*.ts",
     "**/*.tsx",
     "next-env.d.ts",
-    ".next/types/**/*.ts",
-    ".next/dev/types/**/*.ts"
+    ".next/types/**/*.ts"
   ],
   "exclude": [
     "node_modules"
